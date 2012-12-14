@@ -1,4 +1,5 @@
 package local.main;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -62,7 +63,7 @@ public final class byRecursion {
 				}
 				break;
 			}
-			//toRemove.remove(old);
+			// toRemove.remove(old);
 		}
 		if (!toRemove.isEmpty()) {
 			for (Segment rem : toRemove) {
@@ -99,7 +100,7 @@ public final class byRecursion {
 		int max = num * 1000 * 1000;
 		long sum = 0;
 		rand = new Random(0);
-		
+
 		for (int i = 0; i < max; ++i) {
 			int randomNum1 = rand.nextInt(max - min) + min;
 			int randomNum2 = rand.nextInt(max - randomNum1) + randomNum1;
